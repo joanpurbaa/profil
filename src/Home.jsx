@@ -8,7 +8,6 @@ import TechStack from "./components/TechStack";
 import Experience from "./components/Experience";
 import Activities from "./components/Activities";
 import Projects from "./components/Projects";
-import PlausibleProvider from 'next-plausible'
 import Plausible from "plausible-tracker";
 
 const Home = () => {
