@@ -8,6 +8,7 @@ import TechStack from "./components/TechStack";
 import Experience from "./components/Experience";
 import Activities from "./components/Activities";
 import Projects from "./components/Projects";
+import PlausibleProvider from 'next-plausible'
 import Plausible from "plausible-tracker";
 
 const Home = () => {
@@ -162,10 +163,7 @@ const Home = () => {
   return (
     <>
       <Flowbite theme={{ theme: customTheme }}>
-        <div
-          id="home"
-          className="background bg-no-repeat bg-cover flex flex-col justify-between gap-y-12 px-2 md:px-5 lg:px-20 xl:px-48 2xl:px-72 py-10"
-        >
+        <div id="home" className="background bg-no-repeat bg-cover flex flex-col justify-between gap-y-12 px-2 md:px-5 lg:px-20 xl:px-48 2xl:px-72 py-10">
           <LandingPage />
           <About />
           <TechStack />
