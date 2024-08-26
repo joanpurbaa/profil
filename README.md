@@ -1,8 +1,68 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Joan's Profil Website
 
-Currently, two official plugins are available:
+A website that contains about myself, and some experiences, skills, and awards in the world of coding
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Authors
+
+- Instagram : [@joanpurbaa](https://www.instagram.com/joanpurbaa/)
+- LinkedIn : [@joanpurba](https://www.linkedin.com/in/joanpurba/)
+
+
+## Tech Stack
+
+**Client:** React, TailwindCSS, Flowbite
+
+## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Main color | ![#0ea5e9](https://via.placeholder.com/10/0ea5e9?text=+) #0ea5e9 |
+
+
+## Demo
+
+https://profil-joan.vercel.app/
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+   git clone https://github.com/joanpurbaa/profil.git
+```
+
+Go to the project directory
+
+```bash
+  cd profil
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+
+## Preview
+
+- Desktop
+
+![Desktop](https://raw.githubusercontent.com/joanpurbaa/profil/main/public/desktop.png)
+
+- Mobile
+
+![Desktop](https://raw.githubusercontent.com/joanpurbaa/profil/main/public/mobile.png)
+## Feedback
+
+If you have any feedback, please reach out to us at joanpurba562@gmail.com
+
