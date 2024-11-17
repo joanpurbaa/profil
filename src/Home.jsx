@@ -89,6 +89,21 @@ const Home = () => {
       }
     );
     gsap.fromTo(
+      "#projects",
+      {
+        autoAlpha: 0,
+      },
+      {
+        autoAlpha: 1,
+        scrollTrigger: {
+          scrub: true,
+          trigger: "#projects",
+          start: "center 350%",
+          end: "center center",
+        },
+      }
+    );
+    gsap.fromTo(
       "#techStack",
       {
         autoAlpha: 0,
@@ -133,21 +148,6 @@ const Home = () => {
         },
       }
     );
-    gsap.fromTo(
-      "#projects",
-      {
-        autoAlpha: 0,
-      },
-      {
-        autoAlpha: 1,
-        scrollTrigger: {
-          scrub: true,
-          trigger: "#projects",
-          start: "center 350%",
-          end: "center center",
-        },
-      }
-    );
   });
 
   const { trackPageview, enableAutoPageviews, enableAutoOutboundTracking } =
@@ -162,13 +162,16 @@ const Home = () => {
   return (
     <>
       <Flowbite theme={{ theme: customTheme }}>
-        <div id="home" className="background bg-no-repeat bg-cover flex flex-col justify-between gap-y-12 px-2 md:px-5 lg:px-20 xl:px-48 2xl:px-72 py-10">
+        <div
+          id="home"
+          className="background bg-no-repeat bg-cover flex flex-col justify-between gap-y-12 px-2 md:px-5 lg:px-20 xl:px-48 2xl:px-72 py-10"
+        >
           <LandingPage />
           <About />
+          <Projects />
           <TechStack />
           <Experience />
           <Activities />
-          <Projects />
         </div>
       </Flowbite>
     </>
