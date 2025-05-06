@@ -1,6 +1,3 @@
-import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Flowbite } from "flowbite-react";
 import LandingPage from "./components/LandingPage";
 import About from "./components/About";
@@ -8,7 +5,6 @@ import TechStack from "./components/TechStack";
 import Experience from "./components/Experience";
 import Activities from "./components/Activities";
 import Projects from "./components/Projects";
-import Plausible from "plausible-tracker";
 
 const Home = () => {
   const customTheme = {
@@ -33,15 +29,6 @@ const Home = () => {
       },
     },
   };
-
-  const { trackPageview, enableAutoPageviews, enableAutoOutboundTracking } =
-    Plausible();
-
-  trackPageview({
-    url: "https://profil-joan.vercel.app/",
-  });
-  enableAutoPageviews();
-  enableAutoOutboundTracking();
 
   return (
     <>
