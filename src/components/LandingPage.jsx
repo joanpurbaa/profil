@@ -52,11 +52,6 @@ const LandingPage = () => {
                 <span>Github</span>
               </Button>
             </a>
-            <img
-              className="newGithub hidden md:block absolute w-72 -left-40 top-4"
-              src="/newGithub.png"
-              alt=""
-            />
             <a target="_blank" href="https://www.linkedin.com/in/joanpurba/">
               <Button className="linkedin px-3" color="linkedin">
                 <FaLinkedin className="w-8 h-8" />

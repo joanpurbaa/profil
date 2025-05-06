@@ -6,7 +6,7 @@ const About = () => {
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-sky-500">About me 👦</h1>
           <div className="relative mt-3">
             <h2 className="text-base sm:text-lg lg:text-xl">
-              Experience with React.js with more than 2 years of experience at web design. Currently exploring about backend development.
+              Experience with React.js with more than 3 years of experience at web design. Currently exploring about backend development.
             </h2>
             <img
               className="absolute w-20 left-28 sm:left-36 lg:left-40 top-5 sm:top-7"
