@@ -11,7 +11,7 @@ const datas = [
 			"Developing admin dashboard pages with React.js and Tailwind CSS to support smooth backend management.",
 		],
 		warnaCardTechStack: "bg-violet-900",
-		techStack: ["Next.js", "Tailwind CSS", "Axios"],
+		techStack: ["Next.js", "Tailwind CSS"],
 	},
 	{
 		warnaCard: "bg-gradient-to-r from-red-700 to-red-900",
@@ -81,24 +81,24 @@ const Experience = () => {
 					<div
 						className={`mt-10 grid grid-cols-12 ${data.warnaCard} ${data.warnaTextCard} rounded-xl p-5 md:p-10`}
 						key={index}>
-						<div className="col-span-12 sm:col-span-8 lg:col-span-10 flex items-center gap-x-5">
+						<div className="col-span-12 sm:col-span-8 lg:col-span-10 flex items-center gap-x-3 sm:gap-x-5">
 							<img
 								className="w-12 h-12 md:w-12 md:h-12 lg:w-16 lg:h-16 object-contain"
 								src={data.logoPerusahaan}
 								alt=""
 							/>
 							<div>
-								<h1 className="font-semibold text-base md:text-lg lg:text-xl">
+								<h1 className="font-semibold text-xs md:text-lg lg:text-xl">
 									{data.namaPerusahaan}
 								</h1>
-								<p className="text-sm sm:text-md">{data.posisi}</p>
+								<p className="text-xs sm:text-md">{data.posisi}</p>
 							</div>
 						</div>
 						<div className="hidden col-span-4 lg:col-span-2 sm:flex justify-end">
 							<p>{data.waktu}</p>
 						</div>
 						<div className="col-span-12 my-10">
-							<h1 className="font-medium text-base sm:text-lg pb-4">
+							<h1 className="font-medium text-xs sm:text-lg pb-4">
 								Responsible in :
 							</h1>
 							<ul className="list-disc ml-4 space-y-5 sm:space-y-1">
@@ -113,13 +113,13 @@ const Experience = () => {
 							{data.techStack.map((detailTechStack, index) => (
 								<p
 									key={index}
-									className={`p-2 rounded-md text-sm sm:text-base ${data.warnaCardTechStack}`}>
+									className={`p-2 rounded-md text-xs sm:text-base ${data.warnaCardTechStack}`}>
 									{detailTechStack}
 								</p>
 							))}
 						</div>
 						<div className="sm:hidden col-span-12 lg:col-span-2 flex justify-end text-sm mt-10">
-							<p>{data.waktu}</p>
+							<p className="text-xs sm:text-base">{data.waktu}</p>
 						</div>
 					</div>
 				))}

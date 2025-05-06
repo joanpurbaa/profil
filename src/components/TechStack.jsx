@@ -17,7 +17,7 @@ const TechStack = () => {
         <p className="text-zinc-700 text-base sm:text-lg lg:text-xl mt-3">
           some of the tech stacks that I often use
         </p>
-        <div className="flex flex-wrap gap-12 justify-normal lg:gap-12 mt-10">
+        <div className="flex flex-wrap gap-12 justify-center lg:gap-12 mt-10">
           {techStackLogos.map((logo, index) => (
             <img
               loading="lazy"

@@ -129,7 +129,7 @@ const Activities = () => {
 								alt=""
 							/>
 							<div>
-								<h1 className="font-semibold text-base md:text-lg lg:text-xl">
+								<h1 className="font-semibold text-xs md:text-lg lg:text-xl">
 									{data.namaAktifitas}
 								</h1>
 								<p className="text-sm sm:text-md">{data.namaPerusahaan}</p>
@@ -139,12 +139,12 @@ const Activities = () => {
 							<p>{data.waktu}</p>
 						</div>
 						<div className="col-span-12 my-10">
-							<h1 className="font-medium text-base sm:text-lg pb-4">
+							<h1 className="font-medium text-xs sm:text-lg pb-4">
 								Series of activities :
 							</h1>
 							<ul className="list-disc ml-4 space-y-5 sm:space-y-1">
 								{data.tugas.map((detailTugas, index) => (
-									<li className="text-sm md:text-base" key={index}>
+									<li className="text-xs md:text-base" key={index}>
 										{detailTugas}
 									</li>
 								))}
@@ -154,13 +154,13 @@ const Activities = () => {
 							{data.techStack.map((detailTechStack, index) => (
 								<p
 									key={index}
-									className={`p-2 rounded-md text-sm sm:text-base ${data.warnaCardTechStack}`}>
+									className={`p-2 rounded-md text-xs sm:text-base ${data.warnaCardTechStack}`}>
 									{detailTechStack}
 								</p>
 							))}
 						</div>
 						<div className="sm:hidden col-span-12 lg:col-span-2 flex justify-end text-sm mt-10">
-							<p>{data.waktu}</p>
+							<p className="text-xs sm:text-base">{data.waktu}</p>
 						</div>
 					</div>
 				))}
