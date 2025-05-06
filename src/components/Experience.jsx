@@ -71,10 +71,10 @@ const Experience = () => {
 	return (
 		<>
 			<div id="experience" className="pt-20">
-				<h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-sky-500">
+				<h1 className="text-xl sm:text-3xl lg:text-4xl font-bold text-sky-500">
 					Experience 👷
 				</h1>
-				<p className="text-zinc-700 text-base sm:text-lg lg:text-xl mt-3">
+				<p className="text-zinc-700 text-xs sm:text-lg lg:text-xl mt-3">
 					Here are my work experience and career highlights
 				</p>
 				{datas.map((data, index) => (

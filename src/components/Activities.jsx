@@ -111,10 +111,10 @@ const Activities = () => {
 	return (
 		<>
 			<div id="activities" className="pt-20">
-				<h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-sky-500">
+				<h1 className="text-xl sm:text-3xl lg:text-4xl font-bold text-sky-500">
 					Activities 🧑‍🏭
 				</h1>
-				<p className="text-zinc-700 text-base md:text-lg sm:text-xl mt-3">
+				<p className="text-zinc-700 text-xs md:text-lg sm:text-xl mt-3">
 					There are several activities that I often and enjoy doing
 				</p>
 				{datas.map((data, index) => (

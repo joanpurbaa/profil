@@ -16,18 +16,18 @@ const LandingPage = () => {
         <header className="header w-full grid grid-cols-12">
           <nav className="bg-white col-span-12 md:col-start-2 md:col-end-12 lg:col-start-4 lg:col-end-10 flex justify-between border rounded-full hover:shadow-md py-3 px-9 sm:py-5 sm:px-16">
             <li className="list-none">
-              <a className="text-gray-500 hover:text-sky-500" href="#about">
+              <a className="text-gray-500 text-sm sm:text-base hover:text-sky-500" href="#about">
                 About
               </a>
             </li>
             <li className="list-none">
-              <a className="text-gray-500 hover:text-sky-500" href="#techStack">
+              <a className="text-gray-500 text-sm sm:text-base hover:text-sky-500" href="#techStack">
                 Tech stack
               </a>
             </li>
             <li className="list-none">
               <a
-                className="text-gray-500 hover:text-sky-500"
+                className="text-gray-500 text-sm sm:text-base hover:text-sky-500"
                 href="#experience"
               >
                 Experience
@@ -36,16 +36,16 @@ const LandingPage = () => {
           </nav>
         </header>
         <div className="flex flex-col items-center py-20">
-          <h3 className="introduce text-2xl lg:text-4xl font-semibold text-zinc-600">
+          <h3 className="introduce text-xl lg:text-4xl font-semibold text-zinc-600">
             Hi, i&apos;m joan purba
           </h3>
-          <h1 className="as relative text-6xl md:text-7xl lg:text-8xl font-bold text-sky-500 text-center py-8 z-10">
+          <h1 className="as relative text-5xl md:text-7xl lg:text-8xl font-bold text-sky-500 text-center py-8 z-10">
             Web Developer
           </h1>
-          <p className="information text-base lg:text-2xl text-zinc-400">
+          <p className="information text-sm lg:text-2xl text-zinc-400">
             You can find me on...
           </p>
-          <div className="relative flex gap-x-10 mt-24">
+          <div className="relative flex gap-x-3 md:gap-x-10 mt-24">
             <a target="_blank" href="https://github.com/joanpurbaa">
               <Button className="github px-3" color="github">
                 <FaGithub className="w-8 h-8" />

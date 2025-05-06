@@ -48,10 +48,10 @@ const Projects = () => {
   return (
     <>
       <div id="projects" className="pt-20">
-        <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-sky-500">
+        <h1 className="text-xl sm:text-3xl lg:text-4xl font-bold text-sky-500">
           Projects 🧑‍💻
         </h1>
-        <p className="text-zinc-700 sm:text-lg text-base lg:text-xl mt-3">
+        <p className="text-zinc-700 text-xs sm:text-lg text-base lg:text-xl mt-3">
           Some of my featured projects
         </p>
         <div className="mt-10 flex flex-col gap-y-10 sm:grid sm:grid-cols-12 gap-14 items-start">
@@ -69,17 +69,17 @@ const Projects = () => {
                 />
               </a>
               <div className={`flex flex-col justify-start col-span-12 p-5 space-y-3 ${data.warnaTextCard}`}>
-                <h1 className="font-semibold text-base sm:text-lg">
+                <h1 className="font-semibold text-xs sm:text-lg">
                   {data.namaProject}
                 </h1>
-                <p className="text-sm sm:text-base">
+                <p className="text-xs sm:text-base">
                   {data.deskripsiProject}
                 </p>
                 <div className="col-span-12 flex flex-wrap gap-3">
                   {data.techStack.map((detailTechStack, index) => (
                     <p
                       key={index}
-                      className={`p-2 rounded-md text-sm sm:text-base ${data.warnaCardTechStack}`}
+                      className={`p-2 rounded-md text-xs sm:text-base ${data.warnaCardTechStack}`}
                     >
                       {detailTechStack}
                     </p>

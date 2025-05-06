@@ -3,9 +3,9 @@ const About = () => {
     <>
       <div id="about" className="grid grid-cols-12 pt-20 gap-y-10 lg:gap-y-0">
         <div className="col-span-12 lg:col-start-1 lg:col-span-9 row-span-1">
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-sky-500">About me 👦</h1>
+          <h1 className="text-xl sm:text-3xl lg:text-4xl font-bold text-sky-500">About me 👦</h1>
           <div className="relative mt-3">
-            <h2 className="text-base sm:text-lg lg:text-xl">
+            <h2 className="text-xs sm:text-lg lg:text-xl">
               Experience with React.js with more than 3 years of experience at web design. Currently exploring about backend development.
             </h2>
             <img
