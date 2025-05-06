@@ -9,7 +9,7 @@ const About = () => {
               Experience with React.js with more than 3 years of experience at web design. Currently exploring about backend development.
             </h2>
             <img
-              className="absolute w-20 left-28 sm:left-36 lg:left-40 top-5 sm:top-7"
+              className="absolute w-16 sm:w-20 left-[85px] sm:left-36 lg:left-40 top-[13px] sm:top-7"
               src="/underline.png"
               alt=""
             />
