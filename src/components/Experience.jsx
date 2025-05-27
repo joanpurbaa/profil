@@ -19,7 +19,7 @@ const datas = [
 		namaPerusahaan: "Humic Engineering",
 		logoPerusahaan: "/humic.png",
 		posisi: "Front-end Developer",
-		waktu: "Mar - Present",
+		waktu: "Mar - Mei 2025",
 		tugas: [
 			"Create admin dashbord until resposive with all features using Next.js and Tailwind CSS",
 			"Implementing authentication API using Axios",
