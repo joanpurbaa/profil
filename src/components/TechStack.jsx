@@ -1,12 +1,12 @@
 const techStackLogos = [
-  "/mongodb.png",
-  "/postgresql.png",
-  "/mysql.png",
-  "/express.png",
-  "/react.png",
-  "/nextjs.png",
-  "/nodejs.png",
-  "/tailwind.png",
+  "/profil/mongodb.png",
+  "/profil/postgresql.png",
+  "/profil/mysql.png",
+  "/profil/express.png",
+  "/profil/react.png",
+  "/profil/nextjs.png",
+  "/profil/nodejs.png",
+  "/profil/tailwind.png",
 ];
 
 const TechStack = () => {

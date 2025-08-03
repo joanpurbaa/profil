@@ -1,47 +1,47 @@
 const datas = [
-  {
-    link: "https://joanpoerba.github.io/bums/index.html",
-    warnaCard: "bg-blue-600",
-    warnaTextCard: "text-white",
-    namaProject: "BUMS (Badan Usaha Milik Siswa)",
-    coverProject: "/coverBums.png",
-    deskripsiProject:
-      "This is a static web design project, with pure HTML and Javascript for the web design competition from UdayanaUniversity",
-    warnaCardTechStack: "bg-blue-500",
-    techStack: ["HTML", "Bootstrap", "Javascript"],
-  },
-  {
-    link: "http://frogtel-discover.rf.gd/",
-    warnaCard: "bg-purple-600",
-    warnaTextCard: "text-white",
-    namaProject: "Discover",
-    coverProject: "/coverDiscover.png",
-    deskripsiProject:
-      "We created a website to search for, add data to, delete data on tribes in Indonesia",
-    warnaCardTechStack: "bg-purple-500",
-    techStack: ["PHP", "Bootstrap", "MySql"],
-  },
-  {
-    link: "https://cakrawala.vercel.app/",
-    warnaCard: "bg-zinc-700",
-    warnaTextCard: "text-white",
-    namaProject: "Cakrawala",
-    coverProject: "/coverCakrawala.png",
-    deskripsiProject: "You can find all the tribes in Indonesia",
-    warnaCardTechStack: "bg-zinc-600",
-    techStack: ["React", "Tailwind", "Docusaurus", "MDX"],
-  },
-  {
-    link: "https://pijar-pelajar.vercel.app/",
-    warnaCard: "bg-blue-700",
-    warnaTextCard: "text-white",
-    namaProject: "Pijar pelajar",
-    coverProject: "/coverPijarPelajar.png",
-    deskripsiProject:
-      "A web design that I created for the FESTIKA web design competition using React and Tailwind",
-    warnaCardTechStack: "bg-blue-600",
-    techStack: ["React", "Tailwind"],
-  },
+	{
+		link: "https://joanpoerba.github.io/bums/index.html",
+		warnaCard: "bg-blue-600",
+		warnaTextCard: "text-white",
+		namaProject: "BUMS (Badan Usaha Milik Siswa)",
+		coverProject: "/profil/coverBums.png",
+		deskripsiProject:
+			"This is a static web design project, with pure HTML and Javascript for the web design competition from UdayanaUniversity",
+		warnaCardTechStack: "bg-blue-500",
+		techStack: ["HTML", "Bootstrap", "Javascript"],
+	},
+	{
+		link: "http://frogtel-discover.rf.gd/",
+		warnaCard: "bg-purple-600",
+		warnaTextCard: "text-white",
+		namaProject: "Discover",
+		coverProject: "/profil/coverDiscover.png",
+		deskripsiProject:
+			"We created a website to search for, add data to, delete data on tribes in Indonesia",
+		warnaCardTechStack: "bg-purple-500",
+		techStack: ["PHP", "Bootstrap", "MySql"],
+	},
+	{
+		link: "https://cakrawala.vercel.app/",
+		warnaCard: "bg-zinc-700",
+		warnaTextCard: "text-white",
+		namaProject: "Cakrawala",
+		coverProject: "/profil/coverCakrawala.png",
+		deskripsiProject: "You can find all the tribes in Indonesia",
+		warnaCardTechStack: "bg-zinc-600",
+		techStack: ["React", "Tailwind", "Docusaurus", "MDX"],
+	},
+	{
+		link: "https://pijar-pelajar.vercel.app/",
+		warnaCard: "bg-blue-700",
+		warnaTextCard: "text-white",
+		namaProject: "Pijar pelajar",
+		coverProject: "/profil/coverPijarPelajar.png",
+		deskripsiProject:
+			"A web design that I created for the FESTIKA web design competition using React and Tailwind",
+		warnaCardTechStack: "bg-blue-600",
+		techStack: ["React", "Tailwind"],
+	},
 ];
 
 const Projects = () => {

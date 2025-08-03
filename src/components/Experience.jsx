@@ -1,9 +1,22 @@
 const datas = [
 	{
+		warnaCard: "bg-gradient-to-r from-gray-400 to-gray-600",
+		warnaTextCard: "text-white",
+		namaPerusahaan: "Omni IT Consulting",
+		logoPerusahaan: "/profil/omni.png",
+		posisi: "Front-end Developer",
+		waktu: "Jun - Present",
+		tugas: [
+			"Refactored unresponsive UI components (e.g., add/edit forms, navigation bar, buttons, pagination, ect) to improve mobile usability and enhance user experience.",
+		],
+		warnaCardTechStack: "bg-gray-600",
+		techStack: ["Bootstrap", "Ionic"],
+	},
+	{
 		warnaCard: "bg-gradient-to-r from-violet-700 to-violet-900",
 		warnaTextCard: "text-white",
 		namaPerusahaan: "Magna Partners ",
-		logoPerusahaan: "/magna.png",
+		logoPerusahaan: "/profil/magna.png",
 		posisi: "Front-end Developer",
 		waktu: "Mar - Present",
 		tugas: [
@@ -17,7 +30,7 @@ const datas = [
 		warnaCard: "bg-gradient-to-r from-red-700 to-red-900",
 		warnaTextCard: "text-white",
 		namaPerusahaan: "Humic Engineering",
-		logoPerusahaan: "/humic.png",
+		logoPerusahaan: "/profil/humic.png",
 		posisi: "Front-end Developer",
 		waktu: "Mar - Mei 2025",
 		tugas: [
@@ -32,7 +45,7 @@ const datas = [
 		warnaCard: "bg-gradient-to-r from-sky-600 to-sky-800",
 		warnaTextCard: "text-white",
 		namaPerusahaan: "PT. Kodinglab Integrasi Indonesia",
-		logoPerusahaan: "/codinglab.png",
+		logoPerusahaan: "/profil/codinglab.png",
 		posisi: "Back-end Developer",
 		waktu: "Jun - Feb 2025",
 		tugas: [
@@ -49,7 +62,7 @@ const datas = [
 		warnaCard: "bg-gradient-to-r from-zinc-800 to-zinc-700",
 		warnaTextCard: "text-white",
 		namaPerusahaan: "PT. Metromatika Teknologi Rekayasa",
-		logoPerusahaan: "/metromatika.png",
+		logoPerusahaan: "/profil/metromatika.png",
 		posisi: "Front-end Developer",
 		waktu: "Jun - Sep 2023",
 		tugas: [
@@ -98,9 +111,7 @@ const Experience = () => {
 							<p>{data.waktu}</p>
 						</div>
 						<div className="col-span-12 my-10">
-							<h1 className="font-medium text-xs sm:text-lg pb-4">
-								Responsible in :
-							</h1>
+							<h1 className="font-medium text-xs sm:text-lg pb-4">Responsible in :</h1>
 							<ul className="list-disc ml-4 space-y-5 sm:space-y-1">
 								{data.tugas.map((detailTugas, index) => (
 									<li className="text-sm md:text-base" key={index}>

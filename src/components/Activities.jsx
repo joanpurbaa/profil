@@ -3,7 +3,7 @@ const datas = [
 		warnaCard: "bg-gradient-to-r from-yellow-500 to-yellow-700",
 		warnaTextCard: "text-white",
 		namaAktifitas: "Learn Front End Web",
-		logoPerusahaan: "/cheva.png",
+		logoPerusahaan: "/profil/cheva.png",
 		namaPerusahaan: "Chevalier Laboratory SAS",
 		waktu: "Nov 2024 - present",
 		tugas: [
@@ -20,7 +20,7 @@ const datas = [
 		warnaCard: "bg-gradient-to-r from-sky-950 to-sky-800",
 		warnaTextCard: "text-white",
 		namaAktifitas: "Learn Javascript, project management, and basic programming",
-		logoPerusahaan: "/logoDicoding.png",
+		logoPerusahaan: "/profil/logoDicoding.png",
 		namaPerusahaan: "Dicoding Indonesia",
 		waktu: "Mei - Nov 2023",
 		tugas: [
@@ -36,7 +36,7 @@ const datas = [
 		warnaCard: "bg-gradient-to-r from-green-950 to-green-800",
 		warnaTextCard: "text-white",
 		namaAktifitas: "3rd place in the web development on I/O Fest competition",
-		logoPerusahaan: "/logoUntar.png",
+		logoPerusahaan: "/profil/logoUntar.png",
 		namaPerusahaan: "BEM FTI Untar",
 		waktu: "Mei 2023",
 		tugas: [
@@ -52,7 +52,7 @@ const datas = [
 		warnaCard: "bg-gradient-to-r from-blue-950 to-blue-800",
 		warnaTextCard: "text-white",
 		namaAktifitas: "3rd place in MIKA web design competition",
-		logoPerusahaan: "/mika.png",
+		logoPerusahaan: "/profil/mika.png",
 		namaPerusahaan: "Universitas Methodist Indonesia",
 		waktu: "Mar 2023",
 		tugas: [
@@ -65,7 +65,7 @@ const datas = [
 		warnaCard: "bg-gradient-to-r from-red-900 to-red-800",
 		warnaTextCard: "text-white",
 		namaAktifitas: "Certificate Of Competency Assesment",
-		logoPerusahaan: "/logoTelkom.png",
+		logoPerusahaan: "/profil/logoTelkom.png",
 		namaPerusahaan: "SMK Telkom 1 Medan",
 		waktu: "Agu - Okt 2023",
 		tugas: [
@@ -79,7 +79,7 @@ const datas = [
 		warnaCard: "bg-gradient-to-r from-amber-900 to-amber-800",
 		warnaTextCard: "text-white",
 		namaAktifitas: "IT Support OSIS SMK Telkom Medan",
-		logoPerusahaan: "/logoOsis.PNG",
+		logoPerusahaan: "/profil/logoOsis.PNG",
 		namaPerusahaan: "OSIS SMK Telkom 1 Medan",
 		waktu: "Nov 2021 - Sep 2022",
 		tugas: [
@@ -98,7 +98,7 @@ const datas = [
 		warnaCard: "bg-gradient-to-r from-yellow-300 to-yellow-500",
 		warnaTextCard: "text-white",
 		namaAktifitas: "1st place in SAE Digital Academy web design competition",
-		logoPerusahaan: "/sae.png",
+		logoPerusahaan: "/profil/sae.png",
 		namaPerusahaan: "SAE Digital Academy",
 		waktu: "Apr 2022",
 		tugas: ["The challenge just, create SAE Digital Academy website profil"],
